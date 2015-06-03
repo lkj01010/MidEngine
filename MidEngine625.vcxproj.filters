@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\iCommon.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\iGLView.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\iWin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\iCommon.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iGLView.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iMacros.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\stdC.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iWin.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\OGLES\GL\glew.h">
+      <Filter>lib\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\OGLES\GL\glxew.h">
+      <Filter>lib\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\OGLES\GL\wglew.h">
+      <Filter>lib\OGLES\GL</Filter>
+    </ClInclude>
+    <ClInclude Include="lib\math\iMath.h">
+      <Filter>lib\math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{c1343f33-4ba5-4569-b660-4cce605c0f26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib">
+      <UniqueIdentifier>{8a4cfbdd-8f9a-45ab-a6b6-791fc6385156}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\OGLES">
+      <UniqueIdentifier>{334ab0a2-cb59-471b-bdc4-5bf9acd6953d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\OGLES\GL">
+      <UniqueIdentifier>{135e8b60-ad2e-4838-b522-33ebd3cbbcaf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="lib\math">
+      <UniqueIdentifier>{67576b36-1cfd-4de3-b77a-9f0d41ea9d64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

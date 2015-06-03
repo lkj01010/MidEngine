@@ -1,0 +1,23 @@
+# Ignore files build by Visual Studio
+*.obj
+*.tlog
+*.exe
+*.lastbuildstate
+*.idb
+*.ilk
+*.log
+
+
+
+*.pdb
+*.aps
+*.sdf
+*.opensdf
+*.suo
+*.vcproj.*.user
+*.vcxproj.user
+*.vspscc
+*.psess
+
+Debug/
+
